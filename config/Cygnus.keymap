@@ -85,6 +85,7 @@
                 <&macro_tap &kp P>,
                 <&macro_tap &kp LS(V)>,
                 <&macro_tap &kp NUMBER_4>,
+                <&macro_tap &kp LS(D)>,
                 <&macro_tap &kp LS(NUMBER_4)>,
                 <&macro_tap &kp B>,
                 <&macro_tap &kp LS(R)>,
