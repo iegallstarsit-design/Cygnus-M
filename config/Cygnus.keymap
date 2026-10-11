@@ -84,7 +84,8 @@
 &trans &trans &trans &trans &trans &trans &trans    &kp PAGE_DOWN &trans &trans &trans &kp EQUAL &trans &trans
 &trans &trans &trans &trans &kp LANG1 &trans &kp LANG2    &trans &trans &trans &trans
             >;
-        sensor-bindings = <&ROTATE_HORIZONTAL SCRL_LEFT SCRL_RIGHT>;
+
+            sensor-bindings = <&ROTATE SCRL_LEFT SCRL_RIGHT>;
         };
 
         NUM {
