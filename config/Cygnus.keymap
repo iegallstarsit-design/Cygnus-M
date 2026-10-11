@@ -61,6 +61,13 @@
             bindings = <&msc>, <&msc>;
             tap-ms = <20>;
         };
+        ROTATE_HORIZONTAL: ROTATE_HORIZONTAL {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "ROTATE_HORIZONTAL";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -92,6 +99,7 @@
 &trans &trans &trans &trans &trans &trans &trans    &kp C_VOL_DN &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &trans &trans &trans &trans
             >;
+        sensor-bindings = <&ROTATE_HORIZONTAL SCRL_LEFT SCRL_RIGHT>;
         };
 
         ARROW {
