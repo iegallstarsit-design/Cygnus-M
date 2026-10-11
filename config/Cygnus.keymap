@@ -95,7 +95,6 @@
                 <&macro_tap &kp LS(C)>;
             label = "MACRO4(pV4)";
         }; 
-        };
     };
 
     behaviors {
